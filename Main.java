@@ -59,7 +59,7 @@ public class Main {
         System.out.println("Age Category: " + ageCategory);
 
         int number = 10;
-        String testString = "lalala"
+        String testString = "lalala";
         boolean isEven = (number % 2 == 0) ? true : false;
         char m = 'm';
         Person[] persons = new Person[5];
