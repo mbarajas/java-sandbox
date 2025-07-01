@@ -38,7 +38,7 @@ public class Main {
         System.out.println("Updated Name: " + person.getName());
         System.out.println("Updated Age: " + person.getAge());
 
-        //Example of creating a list of Person objects
+        // Example of creating a list of Person objects
         List<Person> people = new ArrayList<>();
         people.add(new Person("Alice", 28));
         people.add(new Person("Bob", 35));
@@ -46,7 +46,7 @@ public class Main {
             System.out.println("Name: " + p.getName() + ", Age: " + p.getAge());
         }
 
-        //Example of using a method to find a person by name
+        // Example of using a method to find a person by name
         Person foundPerson = findPersonByName(people, "Alice");
         if (foundPerson != null) {
             System.out.println("Found Person: " + foundPerson.getName() + ", Age: " + foundPerson.getAge());
@@ -54,7 +54,7 @@ public class Main {
             System.out.println("Person not found");
         }
 
-        //Example of using a ternary operator 
+        // Example of using a ternary operator
         String ageCategory = (person.getAge() < 18) ? "Minor" : "Adult";
         System.out.println("Age Category: " + ageCategory);
 
